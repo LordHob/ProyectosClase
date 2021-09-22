@@ -1,3 +1,159 @@
 body {
-    
+    all: unset;
+    background-color: rgb(203, 196, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    background-color: brown;
+    /* opacity: .5; */
+    width: 30rem;
+    height: 18rem;
+}
+
+.base {
+    background-color: rgb(221, 219, 195);
+    width: 29rem;
+    height: 16.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reference{
+    position:fixed;
+    width: 30rem;
+    height: auto;
+    z-index: 1;
+    opacity: .5;
+}
+.left {
+    width: 23%;
+    height: 100%;
+}
+.center {
+    width: 54%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    width: 23%;
+        height: 100%;
+}
+.topleft{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.downleft{
+    height: 50%;
+}
+
+.topright{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallbottonsbox {
+    height: 100%;
+    width: 50%; 
+    margin-left: -2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smallbottons {
+    background-color: rgb(209, 190, 190);
+    border: .25rem solid brown;
+    border-radius: 1.5rem 1.5rem;
+    height: .8rem;
+    width: 1.5rem;
+}
+.textbottons {
+    font-size: .5rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+.downright{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottonbox2{
+    width: 100%;
+    height: 4rem;
+    margin-top: -.3rem;
+    display: flex;
+    flex-direction: row;
+}
+.bottonboxAB {  
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.letterbottons {
+    font-size: .8rem;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+.bottonAB {
+    background-color: red;
+    border: .2rem solid rgb(46, 32, 6);
+    border-radius: 50%;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+.logo{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: -.8rem;
+}
+.screen {
+    border: .3rem solid red;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.screen img {
+    width: 12rem;
+    height: auto;
+}
+.bordersscreen {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.texttopcenter {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+.textdowncenter {
+    font-family: Helvetica, sans-serif;
+    font-size: .7rem;
+    text-align: center;
+    border: .15rem solid rgb(5, 5, 5);
+    padding: .1rem .2rem;
+    border-radius: .7rem;
+    margin-top: .3rem;
 }
