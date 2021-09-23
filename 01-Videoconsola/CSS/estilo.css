@@ -26,6 +26,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* --------IMAGEN PARA POSICINAR ELEMENTOS-------- */
 .reference{
     position:fixed;
     width: 30rem;
@@ -33,26 +34,21 @@ body {
     z-index: 1;
     opacity: .5;
 }
+/* -------PARTE IZQUIERDA CONSOLA------- */
 .left {
     width: 23%;
     height: 100%;
-}
-.center {
-    width: 54%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.right {
-    width: 23%;
-        height: 100%;
 }
 .topleft{
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.logo{
+    width: 4rem;
+    height: 3.5rem;
+    margin-top: -.8rem;
 }
 .downleft{
     height: 50%;
@@ -65,7 +61,50 @@ body {
     height: auto;
     margin-bottom: .5rem;
 }
-
+/* ---------PARTE CENTRAL CONSOLA--------- */
+.center {
+    width: 54%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen {
+    border: .3rem solid rgb(97, 16, 16);
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.screen img {
+    width: 12rem;
+    height: auto;
+}
+.bordersscreen {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.texttopcenter {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+.textdowncenter {
+    font-family: Helvetica, sans-serif;
+    font-size: .7rem;
+    text-align: center;
+    border: .15rem solid rgb(5, 5, 5);
+    padding: .1rem .2rem;
+    border-radius: .7rem;
+    margin-top: .3rem;
+}
+/* --------PARTE DERECHA CONSOLA-------- */
+.right {
+    width: 23%;
+        height: 100%;
+}
 .topright{
     height: 50%;
     display: flex;
@@ -127,40 +166,4 @@ body {
     border-radius: 50%;
     height: 2.3rem;
     width: 2.3rem;
-}
-.logo{
-    width: 4rem;
-    height: 3.5rem;
-    margin-top: -.8rem;
-}
-.screen {
-    border: .3rem solid rgb(97, 16, 16);
-    padding: .5rem .8rem;
-    border-radius: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-}
-.screen img {
-    width: 12rem;
-    height: auto;
-}
-.bordersscreen {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.texttopcenter {
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-}
-.textdowncenter {
-    font-family: Helvetica, sans-serif;
-    font-size: .7rem;
-    text-align: center;
-    border: .15rem solid rgb(5, 5, 5);
-    padding: .1rem .2rem;
-    border-radius: .7rem;
-    margin-top: .3rem;
 }
