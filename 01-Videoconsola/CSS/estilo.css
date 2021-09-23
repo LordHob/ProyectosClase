@@ -16,7 +16,6 @@ body {
     width: 30rem;
     height: 18rem;
 }
-
 .base {
     background-color: rgb(221, 219, 195);
     width: 29rem;
@@ -111,7 +110,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .smallbottonsbox {
     height: 100%;
     width: 50%; 
@@ -121,7 +119,6 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
 .smallbottons {
     background-color: rgb(209, 190, 190);
     border: .25rem solid rgb(97, 16, 16);
