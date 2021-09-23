@@ -22,4 +22,5 @@ https://github.com/LordHob/ProyectosClase/tree/main/01-Videoconsola
 
 ## Detalles:
 
-    La consola es una réplica parecida a la Nintendo Game & Watch de Super Mario Bros. lanzada en 2020 por el 35 aniversario del lanzamiento del Super Mario Bros.
+    La consola es una réplica parecida a la Nintendo Game & Watch de Super Mario Bros. lanzada en 2020 por el 35 aniversario 
+    del lanzamiento del Super Mario Bros.
