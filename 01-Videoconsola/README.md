@@ -6,6 +6,9 @@
 
 Diseño de una consola retro usando HTML5 y CSS3. Proyecto realizado para la Bootcamp Full Stack Developer VLC 09/2021
 
+![imagen](https://user-images.githubusercontent.com/90702425/134467885-44f0e570-ef4a-437c-9468-dd4912a1f2a7.png)
+
+
 https://github.com/LordHob/ProyectosClase/tree/main/01-Videoconsola
 
 ## Editor:
