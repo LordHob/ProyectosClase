@@ -1,4 +1,40 @@
 body {
-    background-color: #ebeddf
+    /* background-color: #ebeddf; */
+    background-color: black;
 }
 
+.BUTTON_HUT {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+color: #FFFFFF;
+font-family: Liberator;
+font-size: 2.5rem;
+font-weight: 100;
+padding: 8px 12px;
+padding-top: 10px;
+background-color: #8D182E;
+box-shadow: 0px 1px 8px 0px #000000;
+-webkit-box-shadow: 0px 1px 8px 0px #000000;
+-moz-box-shadow: 0px 1px 8px 0px #000000;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+}
+
+.BUTTON_HUT:hover {
+background: #AD9274;
+color: #8D182E;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+text-decoration: none;
+}
+
+@media only screen and (max-width: 500px){
+    .BUTTON_HUT{
+        font-size: 1.5rem;
+        padding: 5px 8px;
+        padding-top: 6px;
+    }
