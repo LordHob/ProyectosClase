@@ -25,4 +25,5 @@ https://lordhob.github.io/ProyectosClase/02-CartaRestaurante/
     La carta presenta 3 apartados diferenciadores. Por un lado está la página principal (o index.html) donde se presenta el logo del
     restaurante. En esta misma página tenemos acceso a la página de contacto y a la página de la carta.
 
+![imagen](https://user-images.githubusercontent.com/90702425/134980333-63ee4f31-00e1-4e76-9be8-afacd96a33d7.png)
 
