@@ -1,4 +1,4 @@
-### Carta de restaurante digital
+## Carta de restaurante digital
 
     Fecha de inicio: 26 de septiembre de 2021
     Fecha de entrega: 27 de septiembre de 2021
