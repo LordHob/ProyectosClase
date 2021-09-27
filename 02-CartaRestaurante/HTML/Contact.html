@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,14 +14,47 @@
         crossorigin="anonymous"></script>
     <!-- ESTILO CSS -->
     <link href="/CSS/estilocontact.css" rel="stylesheet">
-    <title>Contacto</title>
+    <title>Contáctanos</title>
 </head>
-<body>
-    Página de contacto
 
-    <!-- Calle Falsa 123 | 46666 Valencia   
-    963 185 325 | 643 123 456
-    Lunes - Domingo
-    13:00 - 00:00 -->
+<body>
+
+    <body>
+        <!-- FORMULARIO -->
+        <div class="container-fluid">
+            <div class="card col-12 p-5">
+                <div class="card-body p-5">
+                    <h3 class="text-center text-primary"><b>Contáctanos</b></h3>
+
+                    <form class="mb-3" class="form-label">
+                        <label for="exampleInputPassword1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Apellidos</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">¿Qué necesitas?</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Acepta los terminos</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
 </body>
+
 </html>
