@@ -4,7 +4,7 @@
     Fecha de entrega: 27 de septiembre de 2021
     Autor: Rafael Giner Gómez
 
-Diseño de una carta de restaurante digital usando HTML5 y CSS Layout con Bootstrap. Proyecto realizado para la Bootcamp Full Stack Developer VLC 09/2021
+Diseño de una carta de restaurante digital usando HTML5/CSS y Bootstrap. Proyecto realizado para la Bootcamp Full Stack Developer VLC 09/2021
 
 ![imagen]() 
 
