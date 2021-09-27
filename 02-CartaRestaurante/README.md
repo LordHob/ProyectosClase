@@ -6,7 +6,7 @@
 
 Diseño de una carta de restaurante digital usando HTML5/CSS y Bootstrap. Proyecto realizado para la Bootcamp Full Stack Developer VLC 09/2021
 
-![imagen]() 
+![imagen](https://user-images.githubusercontent.com/90702425/134978636-18861c70-b0aa-4828-8340-dac387b3a760.png)
 
 
 https://lordhob.github.io/ProyectosClase/02-CartaRestaurante/
